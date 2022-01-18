@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MyFirstProject.ViewViewModel.Controls.Entry.EntryControlsView">
+    <ContentPage.Content>
+        <StackLayout>
+            <Button Text="Entry1"
+                    
+                    Command="{Binding OnEntry1ViewClicked}"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

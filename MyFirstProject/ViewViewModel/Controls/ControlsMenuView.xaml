@@ -22,6 +22,10 @@
                    Grid.Column="0"
                    Text="t"
                    Command="{Binding OnListViewIconsClicked}"/>
+            <Button Grid.Row="0"
+                   Grid.Column="0"
+                   Text="Entry"
+                   Command="{Binding OnEntryControlsClicked}"/>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>
