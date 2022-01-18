@@ -7,7 +7,7 @@ using System.Windows.Input;
 using Xamarin.Forms;
 
 namespace MyFirstProject.ViewViewModel.Controls.Entry.Entry1
-{
+{ 
     class Entry1ViewModel : BaseViewModel
     {
         public ICommand OnEntry1Clicked { get; }
